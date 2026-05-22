@@ -1,0 +1,7 @@
+{
+  "public_bucket": true,
+  "encryption": false,
+  "mfa": false,
+  "logging": true,
+  "backup": false
+}

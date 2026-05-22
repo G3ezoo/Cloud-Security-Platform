@@ -1,0 +1,30 @@
+rules:
+  - name: Public Storage Exposure
+    key: public_bucket
+    expected: false
+    severity: Critical
+    framework: CIS
+
+  - name: Encryption Disabled
+    key: encryption
+    expected: true
+    severity: High
+    framework: NIST
+
+  - name: MFA Not Enabled
+    key: mfa
+    expected: true
+    severity: High
+    framework: Zero Trust
+
+  - name: Logging Disabled
+    key: logging
+    expected: true
+    severity: Medium
+    framework: NIST
+
+  - name: Backup Missing
+    key: backup
+    expected: true
+    severity: Medium
+    framework: CIS
