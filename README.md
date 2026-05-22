@@ -39,7 +39,7 @@ This project simulates a real-world Cloud Security Posture Management (CSPM) too
 
 ## 📸 Dashboard Preview
 
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
 
 ---
 
